@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta htgames tp-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidêcia D.O.M.</title>
+    <link rel="stylesheet" href="./main.css"> 
+    
+    <form action="telaOK.html" method="post" name="form">
+ <!-- para adcionar font no site -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+       <div class="conteiner">
+        <h1>Evidência D.O.M. Módulo 07</h1>       
+       </div>
+    </header>   
+    <section id="numeros">
+        <div class="conteiner">
+            <h2>Digite números nos dois campos</h2>
+            <div class="numeros-div">
+                <div>
+                    <h3>Você deve digitar o maior número no campo 02</h3>
+                    <form id="formNun">
+                        <input id="Num01" type="number" placeholder="Número 01" required onblur="someBotao()"/>
+                        <input id="Num02" type="number" placeholder="Número 02" required onblur="valNum()"/>
+                        <p class="MSGtela"></p>                    
+                        <p class="BotaoSN"><button type="submit">Submeter</button></p>
+                    </form>
+                </div>               
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="conteiner">
+            <p> 
+               &copy; Evidência modulo 07 - Todos os direitos reservados - Henrique S. Almeida - 2023
+            </p>
+        </div>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
